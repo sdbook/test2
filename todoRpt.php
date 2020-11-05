@@ -1,7 +1,7 @@
 <?php
 session_start();
 require("dbconnect.php");
-//comment from A ***
+//comment from A
 $sql = "select * from todo where status = 1;";
 $result=mysqli_query($conn,$sql) or die("DB Error: Cannot retrieve message.");
 //comment from B
