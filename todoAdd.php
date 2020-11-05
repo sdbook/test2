@@ -13,5 +13,4 @@ if ($title) { //if title is not empty
 }
 
 ?>
-<!-- a HTML comment -->
 <a href="todoList.php">Back</a>

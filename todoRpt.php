@@ -1,10 +1,9 @@
 <?php
 session_start();
 require("dbconnect.php");
-//comment from A
+
 $sql = "select * from todo where status = 1;";
 $result=mysqli_query($conn,$sql) or die("DB Error: Cannot retrieve message.");
-//comment from B
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
