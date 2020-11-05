@@ -1,6 +1,6 @@
 <?php
 require("dbconnect.php");
-
+//a comment
 $msgID=(int)$_GET['id'];
 $act =$_GET['act'];
 $msg = "Message:$msgID, Action: $act completed.";
